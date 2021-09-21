@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+header{
+    margin-bottom: 40px;
+}
+header p {
+    display: inline-block;
+    padding: 25px;
+    margin: 0;
+}
+.button-menu {
+    display: flex;
+    background-color: #EEE;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    z-index: 1;
+}
+.button-menu button {
+    width: 150px;
+    height: 60px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gauche {
+    width: 68%;
+}
+.gauche div {
+    height: 450px;
+    width: 100%;
+    background-color: grey;
+}
+.droite {
+    width: 28%;
+    padding: 10px;
+    border: dotted;
+    height: 1000px;
+    position: relative;
+}
+.droite p {
+    background-color: rgb(138, 138, 48);
+    margin: 0;
+}
